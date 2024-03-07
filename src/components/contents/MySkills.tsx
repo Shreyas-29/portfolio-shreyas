@@ -13,7 +13,7 @@ const MySkills = () => {
             </div>
 
             <p className='mb-4 text-justify lg:leading-7 text-neutral-200 lg:text-start'>
-                A creative problem solver with over 2 years of programming experience, I've explored diverse programming languages, libraries, and technology stacks, honing my skills in both Frontend, Backend, and App development.
+                A creative problem solver with over 2 years of programming experience, I&apos;ve explored diverse programming languages, libraries, and technology stacks, honing my skills in both Frontend, Backend, and App development.
             </p>
 
             <p className='text-justify lg:leading-7 text-neutral-200 lg:text-start'>

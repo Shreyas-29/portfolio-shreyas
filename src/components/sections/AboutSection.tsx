@@ -84,7 +84,7 @@ const AboutSection = () => {
                                 }}
                                 className="text-base leading-8 text-neutral-200"
                             >
-                                Looking ahead, I'm excited about creating 3D websites. I want to make online spaces that feel more real and fun for users.
+                                Looking ahead, I&apos;m excited about creating 3D websites. I want to make online spaces that feel more real and fun for users.
                             </motion.p>
                             <motion.p
                                 initial={{ opacity: 0, y: 20 }}
@@ -96,7 +96,7 @@ const AboutSection = () => {
                                 }}
                                 className="text-base leading-8 text-neutral-200"
                             >
-                                I'm also curious about machine learning, which is like teaching computers to learn and do smart things. I dream of building smart systems that work hand-in-hand with people, making tech a helpful companion in our daily lives.
+                                I&apos;m also curious about machine learning, which is like teaching computers to learn and do smart things. I dream of building smart systems that work hand-in-hand with people, making tech a helpful companion in our daily lives.
                             </motion.p>
                             <motion.p
                                 initial={{ opacity: 0, y: 20 }}
