@@ -10,7 +10,7 @@ const Head = () => {
     const title = pathname.slice(1).charAt(0).toUpperCase() + pathname.slice(2);
 
     const meta = {
-        title: `Shreyas Sihasane ${pathname === "/" ? "" : "· " + title.replace(/[-/]/g, " ")}`,
+        title: `Shreyas Sihasane ${pathname === "/" ? "" : "• " + title.replace(/[-/]/g, " ")}`,
         description: "I'm a software engineer and a web developer. I love to build things for the web and mobile devices. I love to learn new things and I'm always looking for new challenges.",
         keywords: "Shreyas Sihasane, Web Developer, Software Engineer, Full Stack Developer, React, Next.js, Node.js, JavaScript, TypeScript, Tailwind CSS, MongoDB, Express.js, MERN Stack, GraphQL, Prisma, PostgreSQL, MySQL, SQLite, Firebase, AWS, GCP, Web Development, Mobile Development, Android, iOS, C, Python, Figma.",
         type: "website",

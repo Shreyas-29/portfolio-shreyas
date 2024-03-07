@@ -30,12 +30,12 @@ export const TimeLineItem = ({ active, children, last }: TimelineItemProps) => {
                 <div
                     className={cn(
                         "w-4 h-4 rounded-full absolute -top-0.5 -left-2 outline-neutral-900",
-                        active && "bg-violet-500",
+                        active && "bg-blue-600",
                         !active && "bg-neutral-800 w-3 h-3 left-[-5.5px]",
                     )}
                 >
                     {active && (
-                        <div className="top-0 left-0 w-4 h-4 rounded-full -z-10 bg-violet-500 animate-ping" />
+                        <div className="top-0 left-0 w-4 h-4 rounded-full -z-10 bg-blue-600 animate-ping" />
                     )}
 
                 </div>

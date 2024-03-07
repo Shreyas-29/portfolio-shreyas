@@ -86,19 +86,17 @@
 ::-webkit-scrollbar-thumb {
   width: 5px;
   border-radius: 5px;
-  background-color: #8b5cf6 !important;
+  background-color: #0070f3 !important;
 }
 
 * {
-  /* font-family: var(--font-aeonik); */
   font-family: "Inter", "DM Sans", sans-serif;
+  cursor: none;
 }
 
 html,
 body {
   scroll-behavior: smooth;
-  /* font-family: var(--font-aeonik); */
-  font-family: "Inter", "DM Sans", sans-serif;
   /* cursor: none !important; */
 }
 
@@ -112,12 +110,6 @@ option {
   /* cursor: none !important; */
 }
 
-a:hover .flare {
-  width: 45px;
-  height: 45px;
-  transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
-}
-
 .flare {
   position: fixed;
   border: 2px solid #ffffff2b;
@@ -125,7 +117,7 @@ a:hover .flare {
   mix-blend-mode: screen;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  z-index: 999999 !important;
+  z-index: 99999999 !important;
   backdrop-filter: blur(1px);
   background-color: #0000005e;
   transition: width 0.2s ease-in-out, height 0.2s ease-in-out;

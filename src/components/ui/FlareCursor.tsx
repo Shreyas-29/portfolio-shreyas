@@ -14,9 +14,7 @@ const FlareCursor = () => {
 
         const target = e.target;
 
-        if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' || e.target.tagName === 'INPUT') {
-            setIsPointer(true);
-        }
+        setIsPointer(window.getComputedStyle(target).getPropertyValue('cursor') === 'pointer');
     };
 
     useEffect(() => {
