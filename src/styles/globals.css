@@ -107,7 +107,7 @@ textarea,
 select,
 label,
 option {
-  /* cursor: none !important; */
+  cursor: none !important;
 }
 
 .flare {
