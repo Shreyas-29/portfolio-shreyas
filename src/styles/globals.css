@@ -99,7 +99,7 @@ body {
   scroll-behavior: smooth;
   /* font-family: var(--font-aeonik); */
   font-family: "Inter", "DM Sans", sans-serif;
-  /* cursor: none !important; */
+  cursor: none !important;
 }
 
 a,
@@ -109,7 +109,7 @@ textarea,
 select,
 label,
 option {
-  /* cursor: none !important; */
+  cursor: none !important;
 }
 
 a:hover .flare {
