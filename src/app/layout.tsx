@@ -1,4 +1,4 @@
-import { Footer, Header, Providers, TopButton } from "@/components";
+import { FlareCursor, Footer, Header, Providers, TopButton } from "@/components";
 import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
@@ -29,9 +29,6 @@ export default function RootLayout({
         <html lang="en" className={cn(
             'antialiased min-h-screen transition !bg-[#080809] text-neutral-50 aeonikFont',
             font.className,
-            // fontBold.className,
-            // fontLight.className,
-            // Aeonik.variable,
         )}>
 
             <head>
@@ -44,7 +41,7 @@ export default function RootLayout({
                 <Providers>
                     <MantineProvider>
                         <Header />
-                        {/* <FlareCursor /> */}
+                        <FlareCursor />
                         {children}
                         <TopButton />
                         <Footer />
