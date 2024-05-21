@@ -20,7 +20,7 @@ const BlogCard = ({ blog }: Props) => {
                             {blog?.title}
                         </Link>
                     </h2>
-                    <span className="text-sm text-neutral-200 text-end">
+                    <span className="hidden md:inline-block text-sm text-neutral-200 text-end">
                         {moment(blog?.publishedAt).fromNow()}
                     </span>
                 </div>
