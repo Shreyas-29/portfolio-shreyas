@@ -1,57 +1,40 @@
-import React from 'react'
-import { TimeLine, TimeLineItem } from '../utils/ExpTimeLine'
+import React from 'react';
+import { TimeLine, TimeLineItem } from '../utils/ExpTimeLine';
 
 const Experience = () => {
     return (
         <TimeLine>
-
             <TimeLineItem active>
-                <TimeLineItem.Title >
-                    <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
-                        Software Developer
-                    </span>
-                    {" "}•{" "}
-                    <span className="text-neutral-200">
-                        2024 - Present
-                    </span>
-                </TimeLineItem.Title>
-                <TimeLineItem.Description>
-                    I am a software developer at a company that does software development.
-                </TimeLineItem.Description>
-            </TimeLineItem>
-
-            <TimeLineItem>
                 <TimeLineItem.Title>
                     <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
-                        Web Developer
+                        Frontend Developer at Polymath AI
                     </span>
                     {" "}•{" "}
                     <span className="text-neutral-200">
-                        Aug 2021 - Feb 2023
+                        June 2024 - August 2024
                     </span>
                 </TimeLineItem.Title>
                 <TimeLineItem.Description>
-                    I am a web developer at a company that does web development.
+                    Working as a frontend developer at Polymath AI, contributing to innovative solutions in the AI space.
                 </TimeLineItem.Description>
             </TimeLineItem>
 
             <TimeLineItem last>
                 <TimeLineItem.Title>
                     <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
-                        Android Developer
+                        Backend Developer (Freelance) at Saman Technosys
                     </span>
                     {" "}•{" "}
                     <span className="text-neutral-200">
-                        May 2021 - Aug 2021
+                        Oct 2023 - Nov 2023
                     </span>
                 </TimeLineItem.Title>
                 <TimeLineItem.Description>
-                    I am a android developer at a company that does android development.
+                    Developed scripts with Node.js to get scrap data of profiles and store in excel.
                 </TimeLineItem.Description>
             </TimeLineItem>
-
         </TimeLine>
-    )
-}
+    );
+};
 
-export default Experience
+export default Experience;

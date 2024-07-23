@@ -17,7 +17,7 @@ export const skills = [
     },
     {
         title: "Backend Technologies",
-        stack: ["Node.js", "Express.js", "Mongoose", "Prisma", "GraphQL", "Apollo Server", "Nest.js", "Deno", "Insomnia", "Postman"],
+        stack: ["Node.js", "Express.js", "Mongoose", "Prisma", "GraphQL"],
     },
     {
         title: "Databases",
