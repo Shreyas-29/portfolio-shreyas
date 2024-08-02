@@ -11,7 +11,7 @@ const Experience = () => {
                     </span>
                     {" "}•{" "}
                     <span className="text-neutral-200">
-                        June 2024 - August 2024
+                        June 2024 - Present
                     </span>
                 </TimeLineItem.Title>
                 <TimeLineItem.Description>

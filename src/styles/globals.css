@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
-
 @layer base {
   .dark {
     --main-background: 240, 6%, 3%;
@@ -90,7 +88,7 @@
 }
 
 * {
-  font-family: "Inter", "DM Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   cursor: none;
 }
 

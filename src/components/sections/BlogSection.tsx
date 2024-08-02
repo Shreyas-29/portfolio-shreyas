@@ -31,8 +31,6 @@ const BlogSection = () => {
             )
         );
 
-        console.log("data", data, filtered);
-
         setFilteredBlogs(filtered);
     };
 

@@ -1,3 +1,5 @@
+"use client";
+
 import { FaGithub } from "react-icons/fa6";
 import { GoHomeFill } from "react-icons/go";
 import { HiMiniDocumentText } from "react-icons/hi2";
@@ -6,8 +8,16 @@ import { Button } from './ui/Button';
 import MotionButton from './ui/MotionButton';
 import AnimationContainer from './utils/AnimationContainer';
 
-
 const Footer = () => {
+
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '/me.pdf';
+        link.download = 'me.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
 
     return (
         <footer className="flex flex-col items-center justify-center w-full mx-auto lg:max-w-screen-md">
@@ -81,8 +91,8 @@ const Footer = () => {
                         </Button>
                     </MotionButton>
 
-                    <MotionButton href="/me.pdf" delay={1} target="_blank" download>
-                        <Button variant="ghost" size="sm" className="font-normal transition ease-out text-neutral-200 hover:opacity-70">
+                    <MotionButton href="#" delay={1} target="_blank" download>
+                        <Button variant="ghost" size="sm" className="font-normal transition ease-out text-neutral-200 hover:opacity-70" onClick={handleDownload}>
                             <IoDocumentText className="inline-block w-5 h-5 mr-2" />
                             My CV
                         </Button>
