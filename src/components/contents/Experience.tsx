@@ -30,7 +30,7 @@ const Experience = () => {
                     </span>
                 </TimeLineItem.Title>
                 <TimeLineItem.Description>
-                    Developed scripts with Node.js to get scrap data of profiles and store in excel.
+                    Developed scripts with Node.js to get scrap data of profiles and store in excel. (300k profiles)
                 </TimeLineItem.Description>
             </TimeLineItem>
         </TimeLine>
